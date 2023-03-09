@@ -2,6 +2,7 @@ class Header extends HTMLElement {
   
   constructor() {
     super();
+    console.log("constructor");
   }
   
   connectedCallback() {
